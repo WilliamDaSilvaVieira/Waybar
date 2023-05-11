@@ -1,0 +1,68 @@
+* {
+	font-size: 30px;
+	font-family: FiraCode Nerd Font;
+}
+
+window#waybar {
+	background-image: url("Wallpapers/AnyaForger.jpeg");
+	color: #fdf6e3;
+	border: hidden;
+	border-radius: 15px;
+}
+
+.modules-left,
+.modules-center,
+.modules-right {
+	background-image: url("Wallpapers/Anya Forger.jpg");
+	padding: 2px 1px;
+	border: 5px hidden;
+	border-radius: 15px;
+}
+
+#workspaces button {
+	padding: 0 15px;
+	color: #90ee90;
+}
+#workspaces button.active {
+	color: #ffa500;
+	border-bottom: 3px solid #ffa500;
+}
+#workspaces button:hover {
+	box-shadow: inherit;
+	text-shadow: inherit;
+	background: #00008b;
+	border: #00008b;
+	border-radius: 20px;
+	border-bottom: 3px solid #00008b;
+	padding: 0 17px;
+}
+#workspaces button.persistent {
+	color: #009000;
+}
+#workspaces button.urgent {
+	color: #ff0000;
+}
+
+#window{
+	padding: 0px 15px;
+	color: #00ffff;
+}
+
+#bluetooth {
+	color: #008000;
+}
+
+#clock {
+	color: #eed700;
+}
+
+#pulseaudio {
+	color: #add8e6;
+}
+
+#tray,
+#clock,
+#pulseaudio,
+#bluetooth {
+	padding: 0 15px;
+}

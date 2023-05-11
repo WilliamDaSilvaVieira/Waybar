@@ -1,0 +1,114 @@
+// -*- mode: json -*-
+
+{
+	"layer": "top",
+	"position": "bottom",
+
+	"modules-left": [
+		"wlr/workspaces"
+	],
+	"modules-center": [
+		"hyprland/window"
+	],
+	"modules-right": [
+		"bluetooth",
+		"pulseaudio",
+		"clock",
+		"tray"
+	],
+
+	"bluetooth": {
+		"format": " {status}",
+		"format-connected": " {device_alias}",
+		"format-connected-battery": " {device_alias} {device_battery_percentage}%",
+		"tooltip-format": "{controller_alias}\t{controller_address}\n\n{num_connections} connected",
+		"tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{num_connections} connected\n\n{device_enumerate}",
+		"tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
+		"tooltip-format-enumerate-connected-battery": "{device_alias}\t{device_address}\t{device_battery_percentage}%"
+	},
+
+	"hyprland/window": {
+    "format": "{}",
+    "separate-outputs": true
+	},
+
+	"wlr/workspaces": {
+		"format": "{icon}",
+		"icon-size": 40,
+		"on-click": "activate",
+	  "format-icons": {
+	    "1": "",
+	    "2": "",
+	    "3": "",
+	    "4": "",
+	    "5": "",
+	    "6": "",
+	    "7": "",
+	    "8": "",
+	    "9": "",
+	    "10": ""
+	  },
+	  "sort-by-number": true,
+		"persistent_workspaces": {
+				"1": [],
+				"2": [],
+				"3": [],
+				"4": [],
+				"5": [],
+				"6": [],
+				"7": [],
+				"8": [],
+				"9": [],
+				"10": []
+			}
+	},
+
+	"clock": {
+		"interval": 1,
+		"format": "{:%H:%M:%S}  ",
+		"format-alt": "{:%A, %d %B, %Y (%H:%M:%S)}  ",
+    "tooltip-format": "<tt><small>{calendar}</small></tt>",
+    "calendar": {
+                "mode"          : "year",
+                "mode-mon-col"  : 3,
+                "weeks-pos"     : "right",
+                "on-scroll"     : 1,
+                "on-click-right": "mode",
+                "format": {
+                          "months":     "<span color='#ffead3'><b>{}</b></span>",
+                          "days":       "<span color='#ecc6d9'><b>{}</b></span>",
+                          "weeks":      "<span color='#99ffdd'><b>W{}</b></span>",
+                          "weekdays":   "<span color='#ffcc66'><b>{}</b></span>",
+                          "today":      "<span color='#ff6699'><b><u>{}</u></b></span>"
+                          }
+                },
+    "actions":  {
+                "on-click-right": "mode",
+                "on-click-forward": "tz_up",
+                "on-click-backward": "tz_down",
+                "on-scroll-up": "shift_up",
+                "on-scroll-down": "shift_down"
+                }
+	},
+
+	"pulseaudio": {
+		"format": "{icon} {volume:2}%",
+		"format-bluetooth": "{icon}  {volume}% ",
+		"format-muted": "MUTE",
+		"format-icons": {
+			"headphones": "",
+			"default": [
+				"",
+				""
+			]
+		},
+		"scroll-step": 5,
+		"on-click": "pamixer -t",
+		"on-click-right": "pavucontrol"
+	},
+	
+	"tray": {
+		"icon-size": 28,
+		"spacing": 15
+	}
+}
