@@ -13,7 +13,7 @@ window#waybar {
 .modules-left,
 .modules-center,
 .modules-right {
-	background-image: url("Wallpapers/Anya Forger.jpg");
+	background: #00192b;
 	padding: 2px 1px;
 	border: 5px hidden;
 	border-radius: 15px;
