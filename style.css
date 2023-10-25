@@ -4,7 +4,7 @@
 }
 
 window#waybar {
-	background-image: url("Wallpapers/AnyaForger.jpeg");
+	background: #1b1b1b;
 	color: #fdf6e3;
 	border: hidden;
 	border-radius: 15px;
@@ -13,7 +13,6 @@ window#waybar {
 .modules-left,
 .modules-center,
 .modules-right {
-	background: #00192b;
 	padding: 2px 1px;
 	border: 5px hidden;
 	border-radius: 15px;
@@ -21,48 +20,48 @@ window#waybar {
 
 #workspaces button {
 	padding: 0 15px;
-	color: #90ee90;
-}
-#workspaces button.active {
-	color: #ffa500;
-	border-bottom: 3px solid #ffa500;
+	color: #034057;
 }
 #workspaces button:hover {
 	box-shadow: inherit;
 	text-shadow: inherit;
-	background: #00008b;
-	border: #00008b;
+	background: #828282;
+	border: #828282;
 	border-radius: 20px;
-	border-bottom: 3px solid #00008b;
-	padding: 0 17px;
+	border-bottom: 3px solid #828282;
+	padding: 0px 17px;
 }
 #workspaces button.persistent {
-	color: #009000;
+	color: #4d92ab;
+}
+#workspaces button.active {
+	color: #dba540;
 }
 #workspaces button.urgent {
 	color: #ff0000;
 }
 
 #window {
-	padding: 0px 15px;
-	color: #00ffff;
+	padding-left: 160px;
+	padding-right: 160px;
+	color: #6b0000;
 }
 
 #bluetooth {
-	color: #008000;
+	color: #005e19;
 }
 
 #clock {
-	color: #eed700;
+	color: #e3cc00;
 }
 
-#pulseaudio {
-	color: #add8e6;
+#wireplumber {
+	color: #e66300;
 }
 
 #tray,
 #clock,
-#pulseaudio,
+#wireplumber,
 #bluetooth {
-	padding: 0 15px;
+	padding: 0px 15px;
 }
