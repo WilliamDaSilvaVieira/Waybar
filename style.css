@@ -1,11 +1,11 @@
 * {
-	font-size: 30px;
-	font-family: FiraCode Nerd Font;
+	font-size: 32px;
+	font-family: MesloLGS Nerd Font;
 }
 
 window#waybar {
-	background: #1b1b1b;
-	color: #fdf6e3;
+	background: #010300;
+	color: #fcf7d1;
 	border: hidden;
 	border-radius: 15px;
 }
@@ -20,43 +20,42 @@ window#waybar {
 
 #workspaces button {
 	padding: 0 15px;
-	color: #034057;
+	color: #2a8b8b;
 }
 #workspaces button:hover {
 	box-shadow: inherit;
 	text-shadow: inherit;
-	background: #828282;
-	border: #828282;
+	background: #444444;
+	border: #444444;
 	border-radius: 20px;
-	border-bottom: 3px solid #828282;
-	padding: 0px 17px;
+	padding: 0px 15px;
 }
 #workspaces button.persistent {
-	color: #4d92ab;
+	color: #75c58e;
 }
 #workspaces button.active {
-	color: #dba540;
+	color: #9e6a90;
 }
 #workspaces button.urgent {
-	color: #ff0000;
+	color: #8c0005;
 }
 
 #window {
 	padding-left: 160px;
 	padding-right: 160px;
-	color: #6b0000;
+	color: #f7f8fc;
 }
 
 #bluetooth {
-	color: #005e19;
+	color: #5a7f78;
 }
 
 #clock {
-	color: #e3cc00;
+	color: #df5d2e;
 }
 
 #wireplumber {
-	color: #e66300;
+	color: #a4c972;
 }
 
 #tray,
