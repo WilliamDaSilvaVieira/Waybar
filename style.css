@@ -4,7 +4,7 @@
 }
 
 window#waybar {
-	background: #010300;
+	background: #212529;
 	color: #fcf7d1;
 	border: hidden;
 	border-radius: 15px;
@@ -20,7 +20,7 @@ window#waybar {
 
 #workspaces button {
 	padding: 0 15px;
-	color: #2a8b8b;
+	color: #87c38f;
 }
 #workspaces button:hover {
 	box-shadow: inherit;
@@ -31,31 +31,35 @@ window#waybar {
 	padding: 0px 15px;
 }
 #workspaces button.persistent {
-	color: #75c58e;
+	color: #4d908e;
+}
+#workspaces button.empty {
+	color: #87c38f;
 }
 #workspaces button.active {
-	color: #9e6a90;
+	color: #f9c74f;
 }
 #workspaces button.urgent {
-	color: #8c0005;
+	color: #f94144;
 }
 
 #window {
+	font-size: 28px;
 	padding-left: 160px;
 	padding-right: 160px;
 	color: #f7f8fc;
 }
 
 #bluetooth {
-	color: #5a7f78;
+	color: #90be6d;
 }
 
 #clock {
-	color: #df5d2e;
+	color: #f9844a;
 }
 
 #wireplumber {
-	color: #a4c972;
+	color: #2ec4b6;
 }
 
 #tray,
