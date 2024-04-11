@@ -52,7 +52,7 @@
 			"10": ""
 		},
 		"sort-by": "number",
-		"persistent_workspaces": {
+		"persistent-workspaces": {
 			"*": 10
 		}
 	},
