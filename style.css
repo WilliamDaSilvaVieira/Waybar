@@ -1,5 +1,5 @@
 * {
-	font-size: 32px;
+	font-size: 26px;
 	font-family: MesloLGS Nerd Font;
 }
 
@@ -7,7 +7,7 @@ window#waybar {
 	background: #212529;
 	color: #fcf7d1;
 	border: hidden;
-	border-radius: 15px;
+	border-radius: 14px;
 }
 
 .modules-left,
@@ -15,11 +15,11 @@ window#waybar {
 .modules-right {
 	padding: 2px 1px;
 	border: 5px hidden;
-	border-radius: 15px;
+	border-radius: 14px;
 }
 
 #workspaces button {
-	padding: 0 15px;
+	padding: 0 13px;
 	color: #87c38f;
 }
 #workspaces button:hover {
@@ -27,8 +27,8 @@ window#waybar {
 	text-shadow: inherit;
 	background: #444444;
 	border: #444444;
-	border-radius: 20px;
-	padding: 0px 15px;
+	border-radius: 16px;
+	padding: 0px 13px;
 }
 #workspaces button.persistent {
 	color: #4d908e;
@@ -44,9 +44,9 @@ window#waybar {
 }
 
 #window {
-	font-size: 28px;
-	padding-left: 160px;
-	padding-right: 160px;
+	font-size: 22px;
+	padding-left: 140px;
+	padding-right: 140px;
 	color: #f7f8fc;
 }
 
@@ -66,5 +66,5 @@ window#waybar {
 #clock,
 #wireplumber,
 #bluetooth {
-	padding: 0px 15px;
+	padding: 0px 12px;
 }
